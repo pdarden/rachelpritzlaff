@@ -1,0 +1,152 @@
+/* ====Global==== */
+body {
+  font-size: 1em;
+}
+
+a {
+  display: block;
+  margin: 0 auto;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0,0,0);
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 52px;
+}
+
+header a {
+  width: 100%;
+  margin-top: 52px;
+  text-shadow: 2px 0 5px rgba(0, 0, 0, .5);
+  font: 3.75em 'Josefin Slab';
+  text-align: center;
+  padding-top: 10px;
+  border-top: solid 2px #000;
+  border-bottom: solid 2px #000;
+}
+
+li {
+  width: 99.4818652849%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-left: 5px;
+
+  &:hover {
+    border-left: 2px solid #FF7800;
+  }
+}
+
+li a {
+  background-size: auto auto;
+  font: 1.563em Cardo;
+}
+
+li:first-child {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+nav {
+  position: fixed;
+  top: 186px;
+  width: 22%;
+  padding-bottom: 139px;
+}
+
+ul {
+  width: 71.5909090909%;
+  height: 323px;
+  margin: 43px auto 0;
+  padding-bottom: 1px;
+  border-left: 2px solid #E5E5E5;
+}
+
+.main-container {
+  clear: both;
+  width: 66.4166666667%;
+  height: 497px;
+  margin-left: 23.5%;
+}
+
+@media(max-width: 1080px) {
+  header a {
+    text-shadow: 2px 0 5px rgba(0, 0, 0, .5);
+  }
+
+  li a {
+    font-size: 1.063em;
+  }
+
+  nav {
+    clear: both;
+    margin-top: 4px;
+  }
+
+  ul {
+    height: auto;
+  }
+
+}
+@media(max-width: 840px) {
+  body {
+    font-size: 1em;
+  }
+
+  header a {
+    min-height: 60px;
+    margin-top: 47px;
+    margin-bottom: 0;
+    text-shadow: 2px 0 5px rgba(0, 0, 0, .5);
+    font-size: 2.625em;
+  }
+
+  li {
+    display: block;
+    float: left;
+    width: 15%;
+
+    &:hover {
+      border-left: none;
+    }
+  }
+
+  li a {
+    text-align: center;
+
+    &:hover {
+      color: gray;
+    }
+  }
+
+  li:first-child {
+    margin-top: 0;
+  }
+
+  nav {
+    display: block;
+    float: none;
+    clear: none;
+    width: 100%;
+    margin-top: -35px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 2px;
+  }
+
+  ul {
+    width: 99.880952381%;
+    height: 31px;
+    margin-top: 0;
+    border-left-width: 0;
+    border-left-style: none;
+  }
+
+  .main-container {
+    margin-top: 100px;
+    margin-left: 21.9047619048%;
+  }
+
+}

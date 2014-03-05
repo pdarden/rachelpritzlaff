@@ -43,6 +43,7 @@ end
 # gem 'debugger', group: [:development, :test]
 gem 'simple_form'
 gem 'haml'
+gem 'bourbon'
 
 group :test, :development do
   gem 'rspec-rails'
