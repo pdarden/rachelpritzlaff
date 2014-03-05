@@ -44,6 +44,7 @@ end
 gem 'simple_form'
 gem 'haml'
 gem 'bourbon'
+gem 'modernizr-rails'
 
 group :test, :development do
   gem 'rspec-rails'
