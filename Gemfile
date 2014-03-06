@@ -45,6 +45,7 @@ gem 'simple_form'
 gem 'haml'
 gem 'bourbon'
 gem 'modernizr-rails'
+gem 'newrelic_rpm'
 
 group :test, :development do
   gem 'rspec-rails'
