@@ -1,0 +1,8 @@
+%div.contact-form
+  =simple_form_for(@contact) do |f|
+    =f.input :first_name, label: '', placeholder: 'First Name'
+    =f.input :last_name, label: '', placeholder: 'Last Name'
+    =f.input :email, as: :email, label: '', placeholder: 'Email'
+    =f.input :subject, label: '', placeholder: 'Subject'
+    =f.input :message, as: :text, label: '', placeholder: 'Your Message Here', class: 'text-box'
+    =f.submit 'Send', class: 'button'
