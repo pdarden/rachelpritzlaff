@@ -100,6 +100,36 @@ ul {
   img {
     width: 80%;
     margin-left: 9%;
+    border-radius: 0.3em;
+  }
+}
+
+.contact-form {
+  text-align: center;
+  input,
+  textarea,
+  .button {
+    font-family: 'Cardo';
+    width: 60%;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+  }
+
+  input {
+    margin-bottom: 0.5em;
+  }
+
+  textarea {
+    height:10em;
+  }
+
+  .button {
+    color: #000;
+    background-color: #fff;
+
+    &:hover {
+      background-color: #EBEBEB;
+    }
   }
 }
 
@@ -121,6 +151,14 @@ ul {
     height: auto;
   }
 
+  .contact-form {
+    text-align: center;
+    input,
+    textarea,
+    .button {
+      width: 80%;
+    }
+  }
 }
 @media(max-width: 840px) {
   body {
@@ -183,4 +221,12 @@ ul {
     margin-left: 10%;
   }
 
+  .contact-form {
+    text-align: center;
+    input,
+    textarea,
+    .button {
+      width: 80%;
+    }
+  }
 }

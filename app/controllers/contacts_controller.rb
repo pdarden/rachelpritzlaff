@@ -6,7 +6,7 @@ class ContactsController < ApplicationController
   def create
     @contact = Contact.new(contact_params)
     if @contact.save
-      Inquiry.send_message(@contact)
+      Inquiry.send_message(@contact).deliver
       redirect_to root_path,
         flash: { success: "Your message has been sent. We'll get in touch with you shortly." }
     else
