@@ -1,5 +1,23 @@
+$fg-column: 60px;             // Column Width
+$fg-gutter: 25px;             // Gutter Width
+$fg-max-columns: 12;          // Total Columns For Main Container
+
 body {
   font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li a {
+  font-family: 'Poiret One';
+}
+
+p {
+  font-family: 'Cardo';
 }
 
 a {
@@ -42,7 +60,7 @@ li {
 
 li a {
   background-size: auto auto;
-  font: 1.563em Cardo;
+  font-size: 2em;
 }
 
 li:first-child {
@@ -72,6 +90,16 @@ ul {
   height: 100%;
   margin-left: 23.5%;
   padding-bottom: 5em;
+}
+
+.main-bio {
+  h1 {
+    text-align: center;
+  }
+  img {
+    width: 80%;
+    margin-left: 9%;
+  }
 }
 
 @media(max-width: 1080px) {
@@ -150,7 +178,8 @@ ul {
 
   .main-container {
     margin-top: 100px;
-    margin-left: 21.9047619048%;
+    width: 80%;
+    margin-left: 10%;
   }
 
 }
