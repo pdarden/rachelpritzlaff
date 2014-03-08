@@ -5,15 +5,12 @@ class PagesController < ApplicationController
   def bio
   end
 
-  def performance
+  def repertory
   end
 
   def up_coming
   end
 
   def subscribe
-  end
-
-  def contact
   end
 end
