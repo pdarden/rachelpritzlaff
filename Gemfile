@@ -57,6 +57,7 @@ group :test, :development do
   gem 'shoulda-matchers'
   gem 'capybara'
   gem 'nyan-cat-formatter'
+  gem 'dotenv-rails'
 end
 
 group :development do

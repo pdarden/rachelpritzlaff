@@ -177,6 +177,24 @@ ul.upcoming {
   }
 }
 
+#mc_embed_signup{
+  background:#fff;
+  clear:left;
+  font-family: 'Cardo';
+
+  input {
+    font: 1em 'Cardo';
+  }
+
+  ul {
+    border-left: none;
+  }
+
+  li:hover {
+    border-left: none;
+  }
+}
+
 @media(max-width: 1080px) {
   header a {
     text-shadow: 2px 0 5px rgba(0, 0, 0, .5);
