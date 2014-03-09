@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   def repertory
   end
 
-  def up_coming
+  def upcoming
   end
 
   def subscribe

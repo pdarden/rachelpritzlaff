@@ -46,6 +46,7 @@ gem 'haml'
 gem 'bourbon'
 gem 'modernizr-rails'
 gem 'newrelic_rpm'
+gem 'font-awesome-rails'
 
 group :test, :development do
   gem 'rspec-rails'

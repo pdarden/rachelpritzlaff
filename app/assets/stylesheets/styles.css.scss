@@ -1,5 +1,5 @@
 $fg-column: 60px;             // Column Width
-$fg-gutter: 25px;             // Gutter Width
+$fg-gutter: 3px;             // Gutter Width
 $fg-max-columns: 12;          // Total Columns For Main Container
 
 body {
@@ -77,7 +77,6 @@ nav {
 
 ul {
   width: 71.5909090909%;
-  height: 323px;
   margin: 43px auto 0;
   padding-bottom: 1px;
   padding-left: 0;
@@ -111,6 +110,7 @@ ul {
 }
 
 .contact-form {
+  border-radius: 0.2em;
   background-image: asset-url('contact-bg.jpg');
   color: #fff;
   padding: 1em 0;
@@ -143,6 +143,40 @@ ul {
   }
 }
 
+div.repertory,
+h1.repertory {
+  margin-bottom: 1em;
+}
+
+div.repertory {
+  margin-bottom: 2em;
+  img {
+    width: 45%;
+    border-radius: 0.2em;
+  }
+  span {
+    width: 50%;
+    float: right;
+  }
+}
+
+ul.upcoming {
+  border-left: none;
+  margin-left: 0;
+  width: 100%;
+  li{
+    &:hover {
+      border-left: none;
+    }
+  }
+
+  font-size: 1.7em;
+  span {
+    font: 1.1em 'Poiret One';
+    font-weight: bold;
+  }
+}
+
 @media(max-width: 1080px) {
   header a {
     text-shadow: 2px 0 5px rgba(0, 0, 0, .5);
@@ -167,6 +201,20 @@ ul {
     textarea,
     .button {
       width: 80%;
+    }
+  }
+
+  div.repertory {
+    h2 {
+      font-size: 1.2em;
+    }
+    h3 {
+      font-size: 1em;
+    }
+  }
+  ul.upcoming {
+    li {
+      width: 100%;
     }
   }
 }
@@ -226,7 +274,7 @@ ul {
   }
 
   .main-container {
-    margin-top: 100px;
+    margin-top: 3em;
     width: 80%;
     margin-left: 10%;
   }
@@ -237,6 +285,23 @@ ul {
     textarea,
     .button {
       width: 80%;
+    }
+  }
+
+  div.repertory,
+  h1.repertory {
+    text-align: center;
+  }
+
+  div.repertory {
+    margin-bottom: 2em;
+    img {
+      width: 70%;
+      border-radius: 0.2em;
+    }
+    span {
+      width: 100%;
+      float: right;
     }
   }
 }
