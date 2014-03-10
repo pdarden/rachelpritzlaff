@@ -49,6 +49,7 @@ gem 'newrelic_rpm'
 gem 'font-awesome-rails'
 gem 'metamagic'
 gem 'hide_heroku'
+gem 'sitemap_generator'
 
 group :test, :development do
   gem 'rspec-rails'
