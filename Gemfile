@@ -48,6 +48,7 @@ gem 'modernizr-rails'
 gem 'newrelic_rpm'
 gem 'font-awesome-rails'
 gem 'metamagic'
+gem 'hide_heroku'
 
 group :test, :development do
   gem 'rspec-rails'

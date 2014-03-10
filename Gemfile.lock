@@ -73,6 +73,7 @@ GEM
       railties (>= 3.2, < 5.0)
     haml (4.0.5)
       tilt
+    hide_heroku (0.0.1)
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (1.5.3)
@@ -234,6 +235,7 @@ DEPENDENCIES
   factory_girl_rails
   font-awesome-rails
   haml
+  hide_heroku
   jbuilder (~> 1.2)
   jquery-rails
   launchy

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content=<%= ENV['Google_Verification'] %> />
     <%= metamagic title: "Rachel Pritzlaff | Time Based Art", description: "Rachel Pritzlaff creates work under the title of Rachel Pritzlaff/Time Based Art that overhauls the ordinary with wit, precision, and absurd tendencies.", keywords: ["Rachel Pritzlaff", "Time Based Art", "modern dance", "dance", "modern dance", "NYC", "New York City", "comtemporary", "performance art", "performance", "choreography", "post-modern"] %>
 
     <link href="http://fonts.googleapis.com/css?family=Cardo:400|Josefin+Slab:400" rel="stylesheet" type="text/css">
@@ -42,7 +43,7 @@
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', ENV['Google_Analytics'], 'rachelpritzlaff.com');
+      ga('create', <%= ENV['Google_Analytics'] %>, 'rachelpritzlaff.com');
       ga('send', 'pageview');
 
     </script>
