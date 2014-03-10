@@ -168,6 +168,15 @@ ul.upcoming {
     &:hover {
       border-left: none;
     }
+    a {
+      display: inline;
+      font: 1em 'Cardo';
+      text-decoration: underline;
+
+      &:hover {
+        color: gray;
+      }
+    }
   }
 
   font-size: 1.7em;
