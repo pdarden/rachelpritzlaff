@@ -47,6 +47,7 @@ gem 'bourbon'
 gem 'modernizr-rails'
 gem 'newrelic_rpm'
 gem 'font-awesome-rails'
+gem 'metamagic'
 
 group :test, :development do
   gem 'rspec-rails'
