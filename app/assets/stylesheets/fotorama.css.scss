@@ -319,12 +319,11 @@
   position:absolute;
   z-index:12;
   bottom:0;
-  left:0;
-  right:0;
+  right: 0.2em;
   font-family:'Helvetica Neue',Arial,sans-serif;
   font-size:14px;
   line-height:1.5;
-  color:#000;
+  color: rgba(125, 125, 125, .5);
 }
 .fotorama__caption a{
   text-decoration:none;
@@ -341,9 +340,9 @@
   right:0;
 }
 .fotorama__caption__wrap{
-  background-color:#fff;
-  background-color:rgba(255,255,255,.9);
-  padding:5px 10px;
+  /*background-color:#fff;*/
+  /*background-color:rgba(255,255,255,.9);*/
+  /*padding:5px 10px;*/
 }
 @-webkit-keyframes spinner{
   0%{
