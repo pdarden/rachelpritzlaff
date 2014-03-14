@@ -109,6 +109,28 @@ ul {
   }
 }
 
+.kickstarter {
+  .ks {
+    width: 65%;
+    float: left;
+  }
+
+  .large {
+    font-size: 2em;
+  }
+
+  .ks-widget {
+    width: 30%;
+    float: left;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+  }
+}
+
+.fotorama {
+  width: 100%;
+}
+
 .contact-form {
   border-radius: 0.2em;
   background-image: asset-url('contact-bg.jpg');
@@ -333,6 +355,19 @@ ul.upcoming {
   ul.upcoming {
     li {
       width: 100%;
+    }
+  }
+  .kickstarter {
+    .ks {
+      width: 50%;
+    }
+
+    .large {
+      font-size: 1.5em;
+    }
+
+    .ks-widget {
+      width: 45%;
     }
   }
 }
