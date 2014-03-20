@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def index
   end
 
-  def bio
+  def collaborators
   end
 
   def repertory
