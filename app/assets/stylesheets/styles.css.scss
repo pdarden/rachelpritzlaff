@@ -83,6 +83,10 @@ ul {
   border-left: 2px solid #E5E5E5;
 }
 
+.center {
+  text-align: center;
+}
+
 .main-container {
   clear: both;
   width: 66.4166666667%;
@@ -115,26 +119,26 @@ ul {
   }
 }
 
-.kickstarter {
-  .ks {
-    width: 65%;
-    float: left;
-  }
-
+.news {
+  padding-bottom: 2em;
+  text-align: center;
   .large {
-    font-size: 2em;
+    font-size: 3em;
   }
-
-  .ks-widget {
-    width: 30%;
-    float: left;
-    margin-left: 0.5em;
-    margin-bottom: 1em;
+  .medium {
+    font-size: 2.5em;
+  }
+  h1, h2, .large, .medium, a {
+    font-family: 'Cardo';
+  }
+  a:hover {
+    color: grey;
   }
 }
 
 .fotorama {
   width: 100%;
+  padding-bottom: 1em;
 }
 
 .contact-form {
@@ -361,19 +365,6 @@ ul.upcoming {
   ul.upcoming {
     li {
       width: 100%;
-    }
-  }
-  .kickstarter {
-    .ks {
-      width: 50%;
-    }
-
-    .large {
-      font-size: 1.5em;
-    }
-
-    .ks-widget {
-      width: 45%;
     }
   }
 }
